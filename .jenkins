@@ -4,6 +4,8 @@ pipeline {
         stage('Build'){
             steps {
                 bat  'echo "Hello World"'
+                bat  'echo "Hello World from Release/1.0"'
+                bat  'echo "Hello World from Release/1.0"'
             }
         }
     }
